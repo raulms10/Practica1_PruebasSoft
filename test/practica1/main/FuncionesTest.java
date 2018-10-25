@@ -66,9 +66,9 @@ public class FuncionesTest {
      */
     @Test
     public void testEsEquilatero() {
-        double la = 0.0;
-        double lb = 0.0;
-        double lc = 0.0;
+        int la = 0;
+        int lb = 0;
+        int lc = 0;
         Funciones instance = new Funciones();
         boolean expResult = true;
         boolean result = instance.esEquilatero(la, lb, lc);
@@ -80,9 +80,9 @@ public class FuncionesTest {
      */
     @Test
     public void testEsIsosceles() {
-        double la = 0.0;
-        double lb = 0.0;
-        double lc = 0.0;
+        int la = 0;
+        int lb = 0;
+        int lc = 0;
         Funciones instance = new Funciones();
         boolean expResult = false;
         boolean result = instance.esIsosceles(la, lb, lc);
@@ -94,9 +94,9 @@ public class FuncionesTest {
      */
     @Test
     public void testEsEscaleno() {
-        double la = 0.0;
-        double lb = 0.0;
-        double lc = 0.0;
+        int la = 0;
+        int lb = 0;
+        int lc = 0;
         Funciones instance = new Funciones();
         boolean expResult = false;
         boolean result = instance.esEscaleno(la, lb, lc);
@@ -108,10 +108,10 @@ public class FuncionesTest {
      */
     @Test
     public void testEsCuadrado() {
-        double l1 = 0.0;
-        double l2 = 0.0;
-        double l3 = 0.0;
-        double l4 = 0.0;
+        int l1 = 0;
+        int l2 = 0;
+        int l3 = 0;
+        int l4 = 0;
         Funciones instance = new Funciones();
         boolean expResult = true;
         boolean result = instance.esCuadrado(l1, l2, l3, l4);
@@ -123,10 +123,10 @@ public class FuncionesTest {
      */
     @Test
     public void testEsRectangulo() {
-        double l1 = 0.0;
-        double l2 = 0.0;
-        double l3 = 0.0;
-        double l4 = 0.0;
+        int l1 = 0;
+        int l2 = 0;
+        int l3 = 0;
+        int l4 = 0;
         Funciones instance = new Funciones();
         boolean expResult = false;
         boolean result = instance.esRectangulo(l1, l2, l3, l4);
@@ -138,10 +138,10 @@ public class FuncionesTest {
      */
     @Test
     public void testEsTrapecio() {
-        double l1 = 0.0;
-        double l2 = 0.0;
-        double l3 = 0.0;
-        double l4 = 0.0;
+        int l1 = 0;
+        int l2 = 0;
+        int l3 = 0;
+        int l4 = 0;
         Funciones instance = new Funciones();
         boolean expResult = false;
         boolean result = instance.esTrapecio(l1, l2, l3, l4);

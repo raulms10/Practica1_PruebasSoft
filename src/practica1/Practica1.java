@@ -13,7 +13,7 @@ public class Practica1 {
         // Se instancia la clase Funciones
         Funciones fc = new Funciones();
         
-        double lado1, lado2, lado3, lado4;
+        int lado1, lado2, lado3, lado4;
         int opcion;
         
         fc.mostrarMensaje(Mensajes.ENCABEZADO + Mensajes.SALTO_DE_LINEA);
